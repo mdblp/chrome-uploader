@@ -11,16 +11,6 @@ import Rollbar from 'rollbar/src/server/rollbar';
 import uploadDataPeriod from './utils/uploadDataPeriod';
 
 let rollbar;
-if(process.env.NODE_ENV === 'production') {
-  rollbar = new Rollbar({
-    accessToken: __ROLLBAR_POST_TOKEN__,
-    captureUncaught: true,
-    captureUnhandledRejections: true,
-    payload: {
-        environment: 'electron_main_process'
-    }
-  });
-}
 
 crashReporter.start({
   productName: 'Uploader',
