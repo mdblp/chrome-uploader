@@ -37,10 +37,10 @@ module.exports = {
   // NB: it is distinct from our own "debug mode"
   DEBUG: stringToBoolean(process.env.DEBUG, true),
   // the defaults for these need to be pointing to prod
-  API_URL: process.env.API_URL || 'https://api.tidepool.org',
-  UPLOAD_URL: process.env.UPLOAD_URL || 'https://uploads.tidepool.org',
-  DATA_URL: process.env.DATA_URL || 'https://api.tidepool.org/dataservices',
-  BLIP_URL: process.env.BLIP_URL || 'https://app.tidepool.org',
-  DEFAULT_TIMEZONE: process.env.DEFAULT_TIMEZONE || 'America/Los_Angeles',
+  API_URL: process.env.API_URL || 'https://ddc-api.charite.de',
+  UPLOAD_URL: process.env.UPLOAD_URL || 'https://ddc-upload.charite.de',
+  DATA_URL: process.env.DATA_URL || 'https://ddc-api.charite.de/dataservices',
+  BLIP_URL: process.env.BLIP_URL || 'https://ddc.charite.de',
+  DEFAULT_TIMEZONE: process.env.DEFAULT_TIMEZONE || 'Europe/Berlin',
   DEFAULT_CARELINK_DAYS: process.env.DEFAULT_CARELINK_DAYS || '180'
 };

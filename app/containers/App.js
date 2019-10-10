@@ -93,10 +93,10 @@ const serverdata = {
     BLIP_URL: 'http://localhost:3000'
   },
   Production: {
-    API_URL: 'https://api.dev-your-loops.com',
-    UPLOAD_URL: 'https://uploads.dev-your-loops.com',
-    DATA_URL: 'https://api.dev-your-loops.com/dataservices',
-    BLIP_URL: 'https://app.dev-your-loops.com'
+    API_URL: 'https://ddc-api.charite.de',
+    UPLOAD_URL: 'https://ddc-upload.charite.de',
+    DATA_URL: 'https://ddc-api.charite.de/dataservices',
+    BLIP_URL: 'https://ddc.charite.de'
   }
 };
 

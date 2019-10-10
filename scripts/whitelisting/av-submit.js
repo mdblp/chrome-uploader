@@ -21,7 +21,7 @@ const Client = require('ftp');
 const https = require('https');
 const aws = require('aws-sdk');
 
-const ORG = 'tidepool-org';
+const ORG = 'mdblp';
 const REPO = 'chrome-uploader';
 const CONTACT_PERSON = 'Gerrit Niezen';
 const CONTACT_EMAIL = 'gerrit@tidepool.org';
