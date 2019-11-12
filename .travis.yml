@@ -19,7 +19,8 @@ install:
 
 script:
   - npm test
-  - npm run package
+  - npm run package-mac
+  - ls -l ./release
 
 matrix:
   allow_failures:
