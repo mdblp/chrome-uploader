@@ -85,7 +85,6 @@
       "buildResources": "resources",
       "output": "release"
     },
-    "afterSign": "scripts/notarize.js",
     "dmg": {
       "contents": [
         {

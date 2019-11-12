@@ -5,10 +5,6 @@ osx_image: xcode10.1
 language: node_js
 node_js: "10"
 
-env:
-  - ELECTRON_CACHE=$HOME/.cache/electron
-  - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
-
 cache: npm
 
 before_install:
@@ -19,7 +15,7 @@ install:
 
 script:
   - npm test
-  - npm run package-mac
+  - npm run package
   - ls -l ./release
 
 matrix:
