@@ -44,7 +44,7 @@
     "classnames": "2.2.6",
     "commander": "2.20.0",
     "cp2102": "0.0.3",
-    "decompress": "4.2.0",
+    "decompress": "4.2.1",
     "electron-debug": "2.2.0",
     "electron-is-dev": "1.1.0",
     "es6-error": "4.1.1",
